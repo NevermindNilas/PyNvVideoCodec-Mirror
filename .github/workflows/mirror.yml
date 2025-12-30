@@ -2,7 +2,7 @@ name: Mirror PyPI to GitHub
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Every 6 hours
+    - cron: '0 0 * * 0'
   workflow_dispatch: # Manual trigger
 
 jobs:
